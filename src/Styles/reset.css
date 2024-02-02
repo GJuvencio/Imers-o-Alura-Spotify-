@@ -1,0 +1,86 @@
+/* Reset CSS */
+
+/* Box sizing border-box por padrão para todos os elementos */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Elementos de bloco padrão não devem ter margens inferiores ou superiores */
+  body,
+  h1, h2, h3, h4, h5, h6,
+  p,
+  blockquote,
+  pre,
+  dl,
+  dd,
+  ol,
+  ul,
+  figure,
+  fieldset,
+  legend {
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Listas sem estilos */
+  ul, ol {
+	list-style: none;
+  }
+  
+  /* Estilos padrão para elementos embutidos */
+  img,
+  iframe,
+  embed,
+  object,
+  video {
+	display: block;
+  }
+  
+  /* Elementos de tabela devem ter layout de tabela por padrão */
+  table {
+	display: table;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  /* Remove espaçamento adicional ou estilo nos elementos de formulário no Safari/Chrome */
+  button,
+  input,
+  select,
+  textarea {
+	margin: 0;
+  }
+  
+  /* Herda a fonte e a cor do texto do ancestral mais próximo em elementos aninhados */
+  html {
+	font-family: sans-serif;
+  }
+  
+  /* Corrige font-size em HTML5 */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  main,
+  menu,
+  nav,
+  section,
+  summary {
+	display: block;
+  }
+  
+  /* Ajustes para o IE 10 e versões mais recentes */
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	/* Adicione estilos específicos do IE aqui */
+  }
+  
+  /* Adicione estilos específicos do navegador conforme necessário */
+  
+  /* Seu estilo personalizado pode ser adicionado abaixo desta linha */
+  
+  
